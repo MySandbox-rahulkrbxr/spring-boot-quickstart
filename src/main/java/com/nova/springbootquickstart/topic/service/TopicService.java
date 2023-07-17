@@ -14,11 +14,11 @@ public class TopicService {
 
     @Autowired
     private TopicRepository topicRepository;
-    private List<Topic> topics = new ArrayList<>(Arrays.asList(
-                new Topic("java", "Java", "Java programming language"),
-                new Topic("javascript", "JavaScript", "JavaScript scripting language"),
-                new Topic("python", "Python", "Python scripting language")
-    ));
+//    private List<Topic> topics = new ArrayList<>(Arrays.asList(
+//                new Topic("java", "Java", "Java programming language"),
+//                new Topic("javascript", "JavaScript", "JavaScript scripting language"),
+//                new Topic("python", "Python", "Python scripting language")
+//    ));
 
     public List<Topic> getAllTopics() {
 //        return topics;
