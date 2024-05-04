@@ -1,9 +1,7 @@
 package com.nova.springbootquickstart.course.model;
 
 import com.nova.springbootquickstart.topic.model.Topic;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 
 @Entity
 public class Course {
